@@ -1,0 +1,12 @@
+There are at least 3 layers in which first one is of input, second is the hidden layer and the last one is output layer and in each layer there are neurons and each each neuron is connected with the neurons in the next layer 
+
+Each feature of your data is multiplied by it's respective weight and the sum of all the features multiplied by their respective weight is goes into a neuron like this;
+(x0 * w0) + (x1 * w1) + (x2 * w2) + ... + (xn * wn) + bias
+
+bias is added to sum to shift the overall result just to get more accuracy and this all goes into the activation function
+
+after applying activation function we get the output
+
+without an activation function a neural network is a linear model
+
+there are 3 types of activation functions; 1 - Sigmoid (output value lies from 0 to 1) 2 - RELU (output value lies from 0 to infinity, anything below 0 is 0 and anything more than 0 is linear) 3 - Tanh (output value lies from -1 to 1)

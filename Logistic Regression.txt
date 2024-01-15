@@ -1,0 +1,5 @@
+sigmoid function = 1 / (1 + e ^ -(mx + b)), here mx + b = y
+replacing y on the equation, we get;
+S(y) = 1 / (1 + e ^ (-y)), the value lies between 0 and 1 because it is probability
+
+if we have only 1 feature so there we apply simple logistic regression but if we have more than 1 features, there we apply multiple logistic regression
