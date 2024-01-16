@@ -14,5 +14,19 @@ There are 2 types of linear regression;
 
 There are certain assumptions in this;
 - Linearity: means does my data follows the linear pattern? does y increases as x increases or vice versa?
-- Independence
+- Independence: all samples should be independent
 - Normality
+
+We can evaluate our linear Regression model by;
+
+1 - Mean Absolute Error (MAE): take difference of all the predicted and actual values, sum them up, and calculate the average so we will get to know that how far are we. So, whatever the value of mae we get, we can conclude that each data point is this much far away from the actual data on average. The lower the MAE, the more accurate your model is.
+
+2 - Mean Squared Error (MSA): take difference of each predicted and it's respective actual value, square them, sum up them and calculate the average, we can conclude that each data point is it's squared much far away from the actual data on average.The lower the MSE, the more accurate your model is.
+
+3 - Root Mean Squared Error (RMSE): its same as MSE but the only difference is that we take the square root of the average and from that value we can conclude that each data point is this much far away from the actual data on average. The lower the RMSE, the more accurate your model is.
+
+4 - R^2 (Co-efficient of Determination);
+- Formula; R^2 = 1 - (RSS / TSS)
+- RSS stands for Sum of the squared residuals, formula: summation ((y actual -  y predicted) ^ 2)
+- TSS stands for Total Sum of the Square, it tells us that how far on average our predicted values are from the mean of the actual values, formula: summation ((actual y - mean of predicted values)^2)
+- TSS should be greater than the RSS by that we get the value closer to zero and then if we subtract that value from 1 we will get the final value which we could expect nearer to 1 and more the value nearer to 1 the better the model is
