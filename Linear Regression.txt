@@ -1,0 +1,18 @@
+There are points on a graph that is our data and a line is passed through those points in such a way that it is in the best position of covering all of the possible points
+
+The formula is y = b0 + b1x, here b0 is y-intercept and b1 defines the slope of the line
+
+Now for predicting a new data we take the data point, plot it on the graph and see that how far that point is from the line
+
+The residual is the distance between the actual value and the predicted value on the graph so for finding error, we take the modulus of the difference between the actual and predicted value, in general the residual can be calculated as |yi - yi hat|
+
+There are 2 types of errors, 1 - Mean Squared Error; summation of ((|yi - yi hat|)^2) and 2 - Mean Absolute Error summation of (|yi - yi hat|) 
+
+There are 2 types of linear regression;
+1 - Simple Linear Regression (used when there are only 1 feature in our data). Formula: y = b0 + b1x
+2 - Multiple Linear Regression (used when there are more than 1 features in our data). Formula: y = b0 + b1x1 = b2x2 + ... + bnxn
+
+There are certain assumptions in this;
+- Linearity: means does my data follows the linear pattern? does y increases as x increases or vice versa?
+- Independence
+- Normality
