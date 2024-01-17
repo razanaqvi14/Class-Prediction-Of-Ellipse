@@ -1,0 +1,18 @@
+- This comes under un-supervised learning
+
+- We have bunch of un-labeled data
+
+- In K-Means Clustering, We compute k clusters from the data
+
+- k will be defined by us
+
+- If you want to create clusters on the graph according to k, here are the steps;
+1 - For the value of k, we plot that much random points on the graph which are called centroids
+
+2 - calculate the distance between each point on the graph and the centroids, and among all the distances between centroids and the point, you can label each point by the name of that centroid which has the smallest distance and make clusters
+
+3 - compute new centroids of each cluster
+
+4 - Repeat step # 2 and 3 until you get all the points belonging to their clusters
+
+These 4 steps make a process called Expectation-Maximization; Expectation: designing points to closest centroid, Maximization: compute new centroids
