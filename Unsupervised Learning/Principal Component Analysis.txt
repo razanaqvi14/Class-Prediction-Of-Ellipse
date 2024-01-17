@@ -1,0 +1,13 @@
+- It's used as dimensionality reduction technique, it means that let suppose we have more than 1 features i.e x1, x2, x3, etc, we can reduce that down to one dimension that gives the most information about how all these points are spread relative to one another
+
+- lets suppose that we have some points that are plotted on the graph, on x-axis: years since the house is built, on y: square footage, now pca is saying that how one point is far away from any other point
+
+- PCA is a way to find the direction in the space with the largest variance, principal component means the component so some direction in space with the largest variance
+
+- PCA is mapping the points on 1 dimensional space, so the transformed dataset would be on the line
+
+- We check here that how much distance is in between the actual point and it's projected residual and we try to minimize that for all of the points
+
+- The line which is going through the center of the graph on which the projections of the points are is called the pca dimension, we can either look at it as;
+1 - minimizing the projection residuals
+2 - maximizing the variance between the points
